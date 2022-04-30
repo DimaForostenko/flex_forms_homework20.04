@@ -1,0 +1,48 @@
+:root{
+  --bt-color:#4fa74f;
+  --bg-color:#63738a;
+  --card-color:#f2f3f7;
+  --text-color: #727272;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+.conteiner{
+  width: 570px;
+  height: 606px;
+  text-align: center;
+  position: relative;
+  background-color:var(--bg-color) 
+}
+
+
+.regist{
+  width: 400px;
+  height: 500px;
+  border: 1px solid var(--card-color);
+  border-radius: 5px;
+  background-color:var(--card-color);
+  margin: 0;
+  padding: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%,-50%);
+}
+.title{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 2rem;
+  color: var(--text-color);
+}
+.p{
+  padding-bottom: 1em;
+  color: var(--text-color);
+}
+.title::after{
+
+}
