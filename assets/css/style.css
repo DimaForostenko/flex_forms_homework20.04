@@ -33,7 +33,7 @@
   border-radius: 5px;
   background-color:var(--card-color);
   margin: 0;
-  padding: 5px;
+  padding: 1em;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -41,15 +41,28 @@
   transform: translate(-50%,-50%);
 }
 .title{
-  padding-top: 1em;
+  padding-top: 0.5em;
   padding-bottom: 1em;
   font-size: 2rem;
-  color: var(--text-color);
+  color: #636363;
 }
 .p{
-  padding-bottom: 1em;
+  padding-bottom: 2em;
   color: var(--text-color);
 }
-.title::after{
+.card-form{
+  
+  
+}
+.password{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 
 }
+  
+
+
+
+
+
