@@ -11,13 +11,20 @@
   box-sizing: border-box;
 }
 .conteiner{
-  width: 570px;
-  height: 606px;
   text-align: center;
   position: relative;
   background-color:var(--bg-color) 
 }
-
+.card-user{
+  width: 570px;
+  height: 606px;
+  margin: 0%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%,-50%);
+}
 
 .regist{
   width: 400px;
