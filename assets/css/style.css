@@ -53,20 +53,55 @@
 .form{
   display: flex;
   flex-direction: column;
-  
-
 
 }
-.form:nth-child(2){
+.block-name {  
    display: flex;
-
-   
-    
+   justify-content: space-between;
+  
 }
-input{
-
-  margin: 0.5em;
-  padding: 10px;
+.last,
+.name{
+ max-width: 150px;
+ padding: 10px;
+ margin-bottom: 2em;
 }
+  input{
+    padding: 10px;
+    margin-bottom: 2em;
+    border-radius:5px;
+    border:0.5px solid var(--bg-color);
+  }
 
+.block-agreement{
+  display: flex;
+}
+.p-agreement{
+  margin-left:5px ;
+  margin-right: 5px;
+  color:var(--text-color);
+}
+a{
+  color:var(--bt-color)
+}
+.button{
+  color:var(--card-color);
+  font-weight: bold;
+  background-color: var(--bt-color);
+  border:var(--bt-color)
+}
+.sing-in{
+  margin: 0;
+  padding: 1em;
+  position: absolute;
+  top: 96%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%,-50%);
+ color: var(--card-color);
+}
+.link-sing{
+  color: var(--card-color);
+  border: ;
+}
 

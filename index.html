@@ -15,25 +15,27 @@
     <div class=" regist">
       <h1 class="title">Reqister</h1>
       <p class="p">Creat your account.It`s free and only take a minute.</p>
-
-      <form class="general form" action="./card" method="get">
-        <input  type="Name" placeholder="First Name" autofocus >
-        <input  type="Last Name" placeholder="Last Name">
-        
+      <form class="form" action="./card" method="get">
+        <div class="block-name">
+        <input class="name" type="Name" placeholder="Name" autofocus >
+        <input class="last " type="Last Name" placeholder="Last Name">
+        </div>
         <input  type="Email" placeholder="Email">
-          <input  type="Password" placeholder="Password">
-          <input  type="Password" placeholder="Confirm password">
-        
-        <label >
-          <input type="checkbox" name="accept" value="" > I accept the 
-          <a href="Terms of Use" target="_blank">Terms of Use</a> &
+        <input  type="Password" placeholder="Password">
+        <input  type="Password" placeholder="Confirm password">
+        <label class="block-agreement" >
+          <input type="checkbox" name="accept" value="" >
+          <p class="p-agreement">I accept the</p> 
+          <a href="Terms of Use" target="_blank">Terms of Use</a><p class="p-agreement"> &</p>
           <a href="Privacy Policy" target="_blank">Privacy Policy</a>
         </label>
         <input class="button" type="submit" name="register" value="Register Now" >
       </div>
       </form>
     </div>
+    <p class="sing-in">Alredy have an account?
+    <a class="link-sing" href="http://" target="_blank" rel="noopener noreferrer">Sing In</a>
+    </p>
   </section>
 </body>
-
 </html>
