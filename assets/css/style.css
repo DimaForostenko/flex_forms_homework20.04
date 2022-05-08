@@ -102,6 +102,6 @@ a{
 }
 .link-sing{
   color: var(--card-color);
-  border: ;
+  text-decoration: underline ;
 }
 
