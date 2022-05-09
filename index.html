@@ -20,8 +20,14 @@
         <input class="name" type="Name" placeholder="Name" autofocus >
         <input class="last " type="Last Name" placeholder="Last Name">
         </div>
-        <input  type="Email" placeholder="Email">
-        <input  type="Password" placeholder="Password">
+        <input  type="Email" 
+        placeholder="Email" 
+        required 
+        pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+">
+        <input  type="Password" 
+        placeholder="Password" 
+        required 
+        pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$">
         <input  type="Password" placeholder="Confirm password">
         <label class="block-agreement" >
           <input type="checkbox" name="accept" value="" >
